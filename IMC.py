@@ -18,12 +18,12 @@ calculo = peso / (altura/100)**2
 print(f"\nSeu IMC é: {calculo:.2f}")
 
 if calculo < 18.5:
-        print('Segundo a tabela IMC, foi constatado que o seu é: Magreza')
+    print('Segundo a tabela IMC, foi constatado que o seu é: Magreza')
 elif calculo >= 18.5 and calculo < 24.9:
-        print('Segundo a tabela IMC, foi constatado que o seu é: Normal')
+    print('Segundo a tabela IMC, foi constatado que o seu é: Normal')
 elif calculo >= 25.0 and calculo < 29.9:
-        print('Segundo a tabela IMC, foi constatado que o seu é: Sobrepeso')
+    print('Segundo a tabela IMC, foi constatado que o seu é: Sobrepeso')
 elif calculo >= 30.0 and calculo < 39.9:
-        print('Segundo a tabela IMC, foi constatado que o seu é: Obesidade')
-elif calculo >= 40:
-        print('Segundo a tabela IMC, foi constatado que o seu é: Obesidade Grave')
+    print('Segundo a tabela IMC, foi constatado que o seu é: Obesidade')
+else:
+    print('Segundo a tabela IMC, foi constatado que o seu é: Obesidade Grave')
